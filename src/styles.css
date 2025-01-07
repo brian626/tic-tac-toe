@@ -71,6 +71,10 @@ body {
   width: 34px;
 }
 
+.highlight {
+  background: #8abddb;
+}
+
 .board-row:after {
   clear: both;
   content: '';
@@ -87,4 +91,13 @@ body {
 
 .game-info {
   margin-left: 20px;
+}
+
+.toggle-button {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.status-text {
+  font-size: 14px;
 }
